@@ -1,0 +1,20 @@
+[project]
+name = "ansh-yt-dbt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "nallaperumalelt", email = "nallaperumal.sathiyan@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "dbt-core>=1.12.0",
+    "dbt-databricks>=1.12.3",
+]
+
+[project.scripts]
+ansh-yt-dbt = "ansh_yt_dbt:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
