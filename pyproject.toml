@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "nallaperumalelt", email = "nallaperumal.sathiyan@gmail.com" }
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.12,<3.14"
 dependencies = [
     "dbt-core>=1.12.0",
     "dbt-databricks>=1.12.3",
