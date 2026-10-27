@@ -1,0 +1,16 @@
+sources:
+  - name: landing
+    database: dbt_databricks_dev  
+    schema: landing  
+    tables:
+      - name: fact_sales
+      - name: fact_returns
+      
+      - name: dim_customer
+      - name: dim_product
+      - name: dim_store
+      - name: dim_date
+
+  - name: stripe
+    tables:
+      - name: payments
