@@ -14,14 +14,17 @@
     "editor.acceptSuggestionOnEnter": "on",
     "editor.tabCompletion": "on",
     "editor.wordBasedSuggestions": "allDocuments",
-    "editor.parameterHints.enabled": true,
+    "editor.parameterHints.enabled": true,  
     "editor.quickSuggestionsDelay": 100,
 
-    // SQL formatting
+    // SQL Formatter Plus
     "[sql]": {
-        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter",
+        "editor.formatOnSave": true
     },
-    "sql-formatter.uppercase": true
+    "sql-formatter.uppercase": true,
+    "sql-formatter.linesBetweenQueries": 2,
+    "sql-formatter.dialect": "sql"
 }
 
 
