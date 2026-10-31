@@ -1,4 +1,33 @@
+
 {
     "dbt.dbtPythonPathOverride": "/Users/nallaperumal/DBT-Learnings/Ansh-YT-DBT/.venv/bin/python3",
-    "dbt.perspectiveTheme": "Pro Dark"
+    "dbt.perspectiveTheme": "Pro Dark",
+
+    // Enable automatic suggestions
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "on"
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.tabCompletion": "on",
+    "editor.wordBasedSuggestions": "allDocuments",
+    "editor.parameterHints.enabled": true,
+    "editor.quickSuggestionsDelay": 100,
+
+    // SQL formatting
+    "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+    "sql-formatter.uppercase": true
 }
+
+
+
+// {
+//     "dbt.dbtPythonPathOverride": "/Users/nallaperumal/DBT-Learnings/Ansh-YT-DBT/.venv/bin/python3",
+//     "dbt.perspectiveTheme": "Pro Dark"
+// }
+
