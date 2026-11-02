@@ -1,0 +1,11 @@
+snapshots:
+  - name: lookup_snapshot
+    relation: ref('gold_customer')
+    description:  This is exploring scd2 using snapshot from the seeds data. This is a snapshot of the lookup table.
+    config:
+      database: dbt_databricks_dev
+      schema: gold
+      strategy: timestamp
+      unique_key: customer_id
+      updated_at: SrcUpdatedDate
+      dbt_valid_to_current: "to_date('9999-12-31')"

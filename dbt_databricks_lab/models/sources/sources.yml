@@ -11,6 +11,14 @@ sources:
       - name: dim_store
       - name: dim_date
 
+
+  - name: bronze
+    database: dbt_databricks_dev
+    schema: bronze
+    tables:
+      - name: customer
+
+
   - name: stripe
     tables:
       - name: payments
