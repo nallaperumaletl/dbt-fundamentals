@@ -10,3 +10,22 @@ wheels/
 .venv
 .vscode
 .DS_Store
+
+# dbt credentials
+profiles.yml
+**/profiles.yml
+
+# Python environment
+.venv/
+
+# dbt generated files
+target/
+dbt_packages/
+logs/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+**/.DS_Store
